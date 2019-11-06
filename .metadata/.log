@@ -185,3 +185,115 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.158
 !MESSAGE executing callback sts4.classpath.UtweOGaC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 14:58:09.563
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UtweOGaC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 14:58:09.563
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UtweOGaC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 14:58:09.566
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 14:58:09.567
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UtweOGaC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:31.563
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:31.564
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7200ac94[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=626)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:31.565
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.042
+!MESSAGE Boot LS startup time from start to initialized: 3477ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.126
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AOFIKcoIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.128
+!MESSAGE subscribing to classpath changes: sts4.classpath.AOFIKcoI isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.129
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.129
+!MESSAGE subsribers = {sts4.classpath.AOFIKcoI=Send Classpath Notifications(924)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.130
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.131
+!MESSAGE project routes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.132
+!MESSAGE project Strings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.133
+!MESSAGE Preparing classpath changed notification routes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.133
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.133
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.134
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AOFIKcoI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.140
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.141
+!MESSAGE buffering callback sts4.classpath.AOFIKcoI routes false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.142
+!MESSAGE Preparing classpath changed notification Strings
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.143
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.146
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.148
+!MESSAGE buffering callback sts4.classpath.AOFIKcoI Strings false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.148
+!MESSAGE executing callback sts4.classpath.AOFIKcoI 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 15:00:35.228
+!MESSAGE executing callback sts4.classpath.AOFIKcoI SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-11-06 15:19:57.463
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jface.text 4 0 2019-11-06 15:27:42.526
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedAnnotationBinding.resolve(UnresolvedAnnotationBinding.java:34)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedAnnotationBinding.getAnnotationType(UnresolvedAnnotationBinding.java:41)
+	at org.eclipse.jdt.core.dom.MethodBinding.filterTypeAnnotations(MethodBinding.java:227)
+	at org.eclipse.jdt.core.dom.MethodBinding.getAnnotations(MethodBinding.java:116)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getAnnotations(JavadocHover.java:1192)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.addAnnotations(JavadocHover.java:1149)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
