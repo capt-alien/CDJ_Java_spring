@@ -100,3 +100,88 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 11:44:45.507
 !MESSAGE executing callback sts4.classpath.orcUOilx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:08:33.337
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.orcUOilx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:08:33.337
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.orcUOilx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:08:33.339
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:08:33.339
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.orcUOilx => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-06 13:37:05.486
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:52.427
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:52.428
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7200ac94[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=626)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:52.430
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:55.990
+!MESSAGE Boot LS startup time from start to initialized: 3556ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.067
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UtweOGaCisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.069
+!MESSAGE subscribing to classpath changes: sts4.classpath.UtweOGaC isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.070
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.071
+!MESSAGE subsribers = {sts4.classpath.UtweOGaC=Send Classpath Notifications(335)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.072
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.073
+!MESSAGE project routes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.074
+!MESSAGE Preparing classpath changed notification routes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.075
+!MESSAGE project Strings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.076
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.076
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.077
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UtweOGaC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.080
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.082
+!MESSAGE buffering callback sts4.classpath.UtweOGaC routes false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.083
+!MESSAGE Preparing classpath changed notification Strings
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.083
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.087
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.089
+!MESSAGE buffering callback sts4.classpath.UtweOGaC Strings false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.089
+!MESSAGE executing callback sts4.classpath.UtweOGaC 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-06 13:40:56.158
+!MESSAGE executing callback sts4.classpath.UtweOGaC SUCCESS [done]
