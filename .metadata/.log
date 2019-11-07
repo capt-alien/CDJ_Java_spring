@@ -818,3 +818,151 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 14:41:32.136
 !MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 14:45:07.662
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.flWRyzGU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 14:45:07.664
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.flWRyzGU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 14:45:07.664
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 14:45:07.666
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.flWRyzGU => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 15:07:08.354
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 15:07:09.628
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 15:07:10.364
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 15:07:11.955
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 15:07:13.392
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:49.652
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:49.653
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4ff4478[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=626)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:49.654
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.353
+!MESSAGE Boot LS startup time from start to initialized: 3697ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.542
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PaSHdBkvisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.758
+!MESSAGE subscribing to classpath changes: sts4.classpath.PaSHdBkv isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.759
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.759
+!MESSAGE subsribers = {sts4.classpath.PaSHdBkv=Send Classpath Notifications(1168)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.760
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.763
+!MESSAGE project CodeCode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.764
+!MESSAGE project Strings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.765
+!MESSAGE project displayDate ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.765
+!MESSAGE Preparing classpath changed notification CodeCode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.767
+!MESSAGE project routes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.767
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.768
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.769
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PaSHdBkv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.771
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.774
+!MESSAGE buffering callback sts4.classpath.PaSHdBkv CodeCode false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.774
+!MESSAGE Preparing classpath changed notification Strings
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.775
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.781
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.783
+!MESSAGE buffering callback sts4.classpath.PaSHdBkv Strings false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.784
+!MESSAGE Preparing classpath changed notification displayDate
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.785
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.788
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.790
+!MESSAGE buffering callback sts4.classpath.PaSHdBkv displayDate false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.790
+!MESSAGE Preparing classpath changed notification routes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.791
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.794
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.795
+!MESSAGE buffering callback sts4.classpath.PaSHdBkv routes false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.796
+!MESSAGE executing callback sts4.classpath.PaSHdBkv 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-07 15:13:53.871
+!MESSAGE executing callback sts4.classpath.PaSHdBkv SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 15:14:48.537
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-11-07 15:17:48.510
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 15:19:49.166
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-07 15:20:06.527
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
