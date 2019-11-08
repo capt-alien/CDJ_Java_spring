@@ -2049,3 +2049,6 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-08 11:23:14.399
 !MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-08 11:25:58.689
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled

@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class Index {
 
 	public Index() {
-		// TODO Auto-generated constructor stub
 	}
 //	GET INDEX
+	@RequestMapping("")
 	public String index() {
 		return"index.jsp";
 	}
