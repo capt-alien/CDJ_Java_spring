@@ -22,7 +22,7 @@
 				<option>Java</option>
 				</select><br>
 				Comment (optional):<br>
-				<textarea name="Comment" placeholder="Knucks rock!!"></textarea> <br>
+				<textarea name="comment" placeholder="Knucks rock!!"></textarea> <br>
 			
 				<input type="submit" value="submit">
 			

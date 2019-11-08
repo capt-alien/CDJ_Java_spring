@@ -15,7 +15,7 @@
 		Location: <c:out value="${dojo}"/><br>
 		language: <c:out value="${lang}"/><br>
 		
-		Comments: <c:out value="${Comment}"/><br>
+		Comment: <c:out value="${comment}"/><br>
 		
 		
 		<a href="/">Go Back</a>
