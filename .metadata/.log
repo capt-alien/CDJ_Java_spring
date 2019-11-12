@@ -3944,3 +3944,21 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 13:17:43.383
 !MESSAGE executing callback sts4.classpath.CdYPJtDC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:57:59.981
+!MESSAGE Preparing classpath changed notification mvc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:57:59.982
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:57:59.986
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:57:59.988
+!MESSAGE buffering callback sts4.classpath.CdYPJtDC mvc false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:57:59.988
+!MESSAGE executing callback sts4.classpath.CdYPJtDC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 14:58:00.071
+!MESSAGE executing callback sts4.classpath.CdYPJtDC SUCCESS [done]
