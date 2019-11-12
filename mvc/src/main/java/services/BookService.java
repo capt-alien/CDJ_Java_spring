@@ -34,4 +34,28 @@ public class BookService {
             return null;
         }
     }
+//    EDITS A BOOK
+    public Book updateBook(Book b) {
+    	return bookRepository.save(b);
+    }
+    
+	public Book updateBook(Long id, String title, String desc, String lang, Integer numOfPages) {
+		Optional <Book> temp = bookRepository.findById(id);
+		if(temp != null) {
+			temp.get().setTitle(title);
+			temp.get().setDescription(desc);
+			temp.get().setLanguage(lang);
+			temp.get().setNumberOfPages(numOfPages);
+			return  temp.get();
+		}
+		return null;
+	}
+    
+//    DELETES A BOOK
+	public void deleteBook(Long id) {
+    	bookRepository.deleteById(id);
+		
+	}
+
+    
 }
