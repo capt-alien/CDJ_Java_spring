@@ -1,4 +1,4 @@
-package controllers;
+package com.controllers;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import models.Book;
-import services.BookService;
+import com.models.Book;
+import com.services.BookService;
 
 
 @RestController
@@ -54,8 +54,7 @@ public class BooksApi {
     public void destroy(@PathVariable("id") Long id) {
         bookService.deleteBook(id);
     }
-    
-
+   
     
 //    END
 }

@@ -1,11 +1,11 @@
-package repositories;
+package com.repositories;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import models.Book;
+import com.models.Book;
 
 @Repository
 public interface BookRepository extends CrudRepository<Book, Long>{

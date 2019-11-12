@@ -82,7 +82,6 @@ INDEX VERSION 1.131+/Users/ericbotcher/dev/dojo/java_spring/.metadata/.plugins/o
 1445907600.index
 410119557.index
 3878824706.index
-1710719239.index
 1271342938.index
 4177209920.index
 4244793890.index
@@ -100,7 +99,6 @@ INDEX VERSION 1.131+/Users/ericbotcher/dev/dojo/java_spring/.metadata/.plugins/o
 3850499039.index
 2276379367.index
 428318631.index
-2754371434.index
 885315221.index
 1764988902.index
 2838218587.index
@@ -136,7 +134,6 @@ INDEX VERSION 1.131+/Users/ericbotcher/dev/dojo/java_spring/.metadata/.plugins/o
 2355227351.index
 2339258281.index
 829244192.index
-4259007634.index
 4288150809.index
 3993116700.index
 3713699359.index

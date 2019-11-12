@@ -3926,3 +3926,21 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 13:17:43.254
+!MESSAGE Preparing classpath changed notification mvc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 13:17:43.255
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 13:17:43.262
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 13:17:43.264
+!MESSAGE buffering callback sts4.classpath.CdYPJtDC mvc false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 13:17:43.264
+!MESSAGE executing callback sts4.classpath.CdYPJtDC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-12 13:17:43.383
+!MESSAGE executing callback sts4.classpath.CdYPJtDC SUCCESS [done]

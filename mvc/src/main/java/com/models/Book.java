@@ -1,4 +1,4 @@
-package models;
+package com.models;
 
 import java.util.Date;
 
@@ -45,14 +45,7 @@ public class Book {
     }
         
     
-    @PrePersist
-    protected void onCreate(){
-        this.createdAt = new Date();
-    }
-	@PreUpdate
-    protected void onUpdate(){
-        this.updatedAt = new Date();
-    }
+  
     public String getTitle() {
 		return title;
 	}
@@ -77,5 +70,14 @@ public class Book {
 	public void setNumberOfPages(Integer numberOfPages) {
 		this.numberOfPages = numberOfPages;
 	}
+  @PrePersist
+    protected void onCreate(){
+        this.createdAt = new Date();
+    }
+	@PreUpdate
+    protected void onUpdate(){
+        this.updatedAt = new Date();
+    }
 
 }
+
