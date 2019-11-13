@@ -32,12 +32,35 @@ public class BooksController {
 //    SHOW ONE
     @RequestMapping("/show/{id}")
     public String show(@PathVariable("id") Long id, Model model) {
+    	System.out.println(id);
     	Book book = bookService.findBook(id);
+//    	System.out.println(book.getTitle());
     	model.addAttribute("book", book);
-    	return "/boooks/show.jsp";
+    	return "/books/show.jsp";
     }
 //    EDIT
+    @RequestMapping("/books/{id}/edit")
+    public String edit(@PathVariable("id") Long id, Model model) {
+        Book book = bookService.findBook(id);
+        model.addAttribute("book", book);
+        return "/books/edit.jsp";
+    }
     
+    @RequestMapping(value="/books/{id}", method=RequestMethod.POST)
+    public String update(@Valid @ModelAttribute("book") Book book, BindingResult result) {
+        if (result.hasErrors()) {
+            return "/books/edit.jsp";
+        } else {
+            bookService.updateBook(book);
+            return "redirect:/books";
+        }
+    }
+//    DELET$E
+    @RequestMapping(value="/books/{id}", method=RequestMethod.DELETE)
+    public String destroy(@PathVariable("id") Long id) {
+        bookService.deleteBook(id);
+        return "redirect:/books";
+    }
     
 //    NEW
     @RequestMapping("/books/new")

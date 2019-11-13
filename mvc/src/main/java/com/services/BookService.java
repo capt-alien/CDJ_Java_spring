@@ -29,8 +29,10 @@ public class BookService {
     public Book findBook(Long id) {
         Optional<Book> optionalBook = bookRepository.findById(id);
         if(optionalBook.isPresent()) {
+        	System.out.println("test2*****");
             return optionalBook.get();
         } else {
+        	System.out.println("test*****");
             return null;
         }
     }
