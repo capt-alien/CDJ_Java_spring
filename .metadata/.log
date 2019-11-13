@@ -4116,3 +4116,57 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:41.872
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:41.873
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:41.875
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:41.876
+!MESSAGE buffering callback sts4.classpath.XHeiPfKK languages false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:41.877
+!MESSAGE executing callback sts4.classpath.XHeiPfKK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:41.881
+!MESSAGE executing callback sts4.classpath.XHeiPfKK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:42.148
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:42.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:42.156
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:42.158
+!MESSAGE buffering callback sts4.classpath.XHeiPfKK languages false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:42.158
+!MESSAGE executing callback sts4.classpath.XHeiPfKK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:07:42.167
+!MESSAGE executing callback sts4.classpath.XHeiPfKK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:45:35.363
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:45:35.365
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:45:35.371
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:45:35.373
+!MESSAGE buffering callback sts4.classpath.XHeiPfKK languages false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:45:35.374
+!MESSAGE executing callback sts4.classpath.XHeiPfKK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-13 11:45:35.386
+!MESSAGE executing callback sts4.classpath.XHeiPfKK SUCCESS [done]
