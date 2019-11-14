@@ -1,7 +1,15 @@
 package com.repositories;
 
+import java.util.List;
+
 import org.springframework.data.repository.CrudRepository;
 
-public interface LanguageRepository extends CrudRepository<T, ID> {
+import org.springframework.stereotype.Repository;
+
+import com.models.Language;
+
+@Repository
+public interface LanguageRepository extends CrudRepository<Language, Long> {
+	List<Language> findAll();
 
 }

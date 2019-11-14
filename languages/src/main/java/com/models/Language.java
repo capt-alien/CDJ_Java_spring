@@ -33,6 +33,10 @@ public class Language {
     @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date updatedAt;
     
+    public Language() {
+    	
+    }
+    
 //    INIT
 	public Language(@Size(min = 2, max = 20) String name, @Size(min = 2, max = 20) String creator,
 			@Size(min = 2, max = 20) String currentVersion) {

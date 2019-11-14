@@ -14,30 +14,9 @@
 <title>Languages</title>
 </head>
 <body>
-	<div id="container">
-		<table class="table table-striped table-hover table-bordered tblbrd">
-		    <thead>
-		        <tr>
-		            <th scope="col">Name</th>
-		            <th scope="col">Creator</th>
-		            <th scope="col">Version</th>
-		            <th scope="col">Action</th>
-		        </tr>
-		    </thead>
-		    <tbody>
-		        <c:forEach items="${languages}" var="lang">
-		        <tr>
-		            <td><a href="languages/<c:out value="${lang.id}"/>"><c:out value="${lang.name}"/></a></td>
-		            <td><c:out value="${lang.creator}"/></td>
-		            <td><c:out value="${lang.currentVersion}"/></td>
-		            <td><a href="/languages/delete/${lang.id}" >Delete</a> <a href="/languages/edit/${lang.id}">Edit</a></td>
-		        </tr>
-		        </c:forEach>
-		    </tbody>
-		</table>
 		
 		<!-- ERRORS HERE -->
- 		<div id="form">
+		<div id="form">
 			<form:form action="/languages" method="POST" modelAttribute="addNew">		  
 			    <p>
 			        <form:label class="label" path="name">Name</form:label>
