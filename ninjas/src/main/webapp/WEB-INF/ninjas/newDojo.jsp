@@ -13,12 +13,16 @@
 	<body>
 	<div class="container">
 		<h1>New Dojo</h1>
+		
 		<a href="/">Home</a> | <a href="/ninjas/new">Create Ninja</a>
-		<form:form action="/dojos/new" method="post" modelAttribute="dojo">
+		
+		
+		<form:form action="/dojos/new" method="POST" modelAttribute="dojo">
 			<form:label path="name">Name:
 			<form:errors path="name"/>
 			<form:input path="name"/></form:label>
-			<input type="submit" value="Create Dojo">
+			<input type="Submit" value="Create Dojo">
+			
 		</form:form>
 	</div>
 	</body>

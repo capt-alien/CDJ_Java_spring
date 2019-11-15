@@ -14,6 +14,8 @@
 	<div class="container">
 		<h1>New Ninja</h1>
 		<a href="/">Home</a> | <a href="dojos">Create Dojo</a>
+		
+		
 		<form:form action="/ninjas/new" method="post" modelAttribute="ninja">
 			<form:label path="first_name">First Name:
 			<form:errors path="first_name"/>
