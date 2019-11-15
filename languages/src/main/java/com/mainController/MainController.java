@@ -76,9 +76,5 @@ public class MainController {
 		return "redirect:/languages";
 	}
 	
-	
-	
-	
-	
 //	END
 }

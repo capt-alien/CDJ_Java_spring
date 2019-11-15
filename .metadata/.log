@@ -4367,3 +4367,229 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2019-11-13 16:20:05.611
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:01:49.345
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TeteGqkp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:01:49.348
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TeteGqkp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:01:49.349
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:01:49.350
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TeteGqkp => OK
+!SESSION 2019-11-14 15:04:49.514 -----------------------------------------------
+eclipse.buildId=4.4.1.201910232221-RELEASE
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ericbotcher/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ericbotcher/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-11-14 15:04:53.851
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2019-11-14 15:05:22.811
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-14 15:05:22.811
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3eeda4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64b242b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-14 15:05:31.296
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:46.239
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:46.241
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@cf825e8[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=626)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:46.244
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:46.367
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.476
+!MESSAGE Boot LS startup time from start to initialized: 5197ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.580
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zcPZlpGWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.587
+!MESSAGE subscribing to classpath changes: sts4.classpath.zcPZlpGW isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.591
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.597
+!MESSAGE subsribers = {sts4.classpath.zcPZlpGW=Send Classpath Notifications(198)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.597
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.599
+!MESSAGE project liscensesApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.604
+!MESSAGE project CodeCode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.604
+!MESSAGE project Strings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.605
+!MESSAGE project displayDate ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.605
+!MESSAGE Preparing classpath changed notification liscensesApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.607
+!MESSAGE project languages ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.607
+!MESSAGE project mvc ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.609
+!MESSAGE project ninjaSurvey ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.609
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.611
+!MESSAGE project routes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.612
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.613
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zcPZlpGW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.621
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.624
+!MESSAGE buffering callback sts4.classpath.zcPZlpGW liscensesApp false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.625
+!MESSAGE Preparing classpath changed notification CodeCode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.626
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.629
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.633
+!MESSAGE buffering callback sts4.classpath.zcPZlpGW CodeCode false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.634
+!MESSAGE Preparing classpath changed notification Strings
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.645
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.647
+!MESSAGE buffering callback sts4.classpath.zcPZlpGW Strings false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.648
+!MESSAGE Preparing classpath changed notification displayDate
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.649
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.652
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.654
+!MESSAGE buffering callback sts4.classpath.zcPZlpGW displayDate false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.655
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.655
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.659
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.661
+!MESSAGE buffering callback sts4.classpath.zcPZlpGW languages false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.662
+!MESSAGE Preparing classpath changed notification mvc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.663
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.667
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.669
+!MESSAGE buffering callback sts4.classpath.zcPZlpGW mvc false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.670
+!MESSAGE Preparing classpath changed notification ninjaSurvey
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.671
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.675
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.676
+!MESSAGE buffering callback sts4.classpath.zcPZlpGW ninjaSurvey false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.676
+!MESSAGE Preparing classpath changed notification routes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.678
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.681
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.682
+!MESSAGE buffering callback sts4.classpath.zcPZlpGW routes false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.683
+!MESSAGE executing callback sts4.classpath.zcPZlpGW 8 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 15:17:51.843
+!MESSAGE executing callback sts4.classpath.zcPZlpGW SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-11-14 15:23:50.445
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface.text 4 0 2019-11-14 15:49:18.585
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocumentRegion.getStartOffset(BasicStructuredDocumentRegion.java:279)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocumentRegion.getText(BasicStructuredDocumentRegion.java:306)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttValueHelp(XMLTagInfoHoverProcessor.java:136)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:113)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:88)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:259)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:70)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo2(BestMatchHover.java:144)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
