@@ -17,7 +17,9 @@
 	
 	<body>
 	<div class="container">
-		<h1><c:out value="${user.first_name} ${user.last_name}"/></h1>
+		<h1> <c:out value= "${user.first_Name}" /> </h1>
+		<h1> <c:out value= "${user.last_Name}" /> </h1>
+		
 		<ul>
 			<li>License Number: <c:out value="${user.license.number}"/></li>
 			<li>State: <c:out value="${user.license.state}"/></li>

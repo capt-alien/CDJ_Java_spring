@@ -22,10 +22,10 @@ public class User {
 	@GeneratedValue
 	private Long id;
 	
-//	@Column
+	@Column
 	private String first_Name;
 	
-//	@Column
+	@Column
 	private String last_Name;
 
 	@Column
@@ -67,7 +67,7 @@ public class User {
 	}
 
 	public String getFirst_Name() {
-		return first_Name;
+		return this.first_Name;
 	}
 
 	public void setFirst_Name(String first_Name) {
@@ -75,7 +75,7 @@ public class User {
 	}
 
 	public String getLast_Name() {
-		return last_Name;
+		return this.last_Name;
 	}
 
 	public void setLast_Name(String last_Name) {
