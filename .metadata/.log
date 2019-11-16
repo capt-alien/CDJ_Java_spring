@@ -12100,3 +12100,15 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 10:27:13.078
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RzyxVLiX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 10:27:13.080
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.RzyxVLiX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 10:27:13.080
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 10:27:13.081
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RzyxVLiX => OK
