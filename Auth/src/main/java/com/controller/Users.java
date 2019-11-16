@@ -33,6 +33,7 @@ public class Users {
     
     @RequestMapping(value="/registration", method=RequestMethod.POST)
     public String registerUser(@Valid @ModelAttribute("user") User user, BindingResult result, HttpSession session) {
+    	userValidator.validate(user, result);
         // if result has errors, return the registration page (don't worry about validations just now)
         // else, save the user in the database, save the user id in session, and redirect them to the /home route
     }
