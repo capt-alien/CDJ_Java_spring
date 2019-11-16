@@ -60,10 +60,9 @@ public class CategoryController {
 		public String showCat(Model model, @PathVariable("id") Long id) {
 			Category category = categoryService.getOne(id);
 			model.addAttribute("category", category);
-//			model.addAttribute("products", productService.getAllWith(id));
+			model.addAttribute("products", productService.getAllExceptId(id));
 			return "showCategory.jsp";
 		}
-		
 		
 		
 //		POST EDIT

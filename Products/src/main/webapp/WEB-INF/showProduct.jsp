@@ -23,10 +23,14 @@
 		</ul>
 		<c:if test="${!empty categories}">
 		<h3>Add a Category</h3>
+		
+		
 		<form action="/products/${product.id}" method="POST">
 			<div class="form-group">
 				<label for="category">Category:</label>
 				<select name="category">
+				
+				
 					<c:forEach items="${categories}" var="category">
         					<option value="${category.id}"><c:out value="${category.name}"/></option>
    					</c:forEach>

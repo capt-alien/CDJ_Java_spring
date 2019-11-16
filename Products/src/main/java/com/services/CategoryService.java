@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.models.Category;
+import com.models.Product;
 import com.repositories.CategoryRepo;
 import com.repositories.ProductRepo;
 
@@ -46,14 +47,17 @@ public class CategoryService {
 		categoryRepo.save(category);
 	}
 	
-//	NEEDS WORK
-//	public List<Category> getAllExcept(Long productId) {
-//		List<Category> categories = this.getAll();
-//		List<Category> productCategories = productRepo.findById(productId).getCategories();
-//		categories.removeAll(productCategories);
-//		return categories;
-//	}
-//	
-	
+//GET ALL EXCEPT
+	public List<Category> getAllExceptId(Long id){
+		List<Category> theseCategories = this.getAll();
+		Optional<Product> x = productRepo.findById(id);
+		if(x.isPresent()) {
+			List<Category> theseProductCategories = x.get().getCategories();
+			theseCategories.removeAll(theseProductCategories);
+			return theseCategories;
+		}else {
+			return null;
+		}
+	}
 //END
 }

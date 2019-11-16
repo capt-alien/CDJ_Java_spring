@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.models.Category;
 import com.models.Product;
 import com.repositories.CategoryRepo;
 import com.repositories.ProductRepo;
@@ -50,6 +51,19 @@ public class ProductService {
 			Optional<Product> productsWithId = productRepo.findById(categoryId);
 			return productsWithId;
 		}
+//GET ALL EXCEPT		
+		public List<Product> getAllExceptId(Long id){
+			List<Product> theseProducts= this.getAll();
+			Optional<Category> x = categoryRepo.findById(id);
+			if(x.isPresent()) {
+				List<Product> theseCategoryProducts = x.get().getProducts(); 
+				theseProducts.removeAll(theseCategoryProducts);
+				return theseProducts;
+			}else {
+				return null;
+			}
+		}
+
 		
 		
 //END

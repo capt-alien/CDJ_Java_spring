@@ -56,7 +56,7 @@ public class ProductsController {
 	public String showCat(Model model, @PathVariable("id") Long id) {
 		Product product = productService.getOne(id);
 		model.addAttribute("product", product);
-//		model.addAttribute("categories", categoryService.getAllExcept(id));
+		model.addAttribute("categories", categoryService.getAllExceptId(id));
 		return "showProduct.jsp";
 	}
 	
@@ -70,10 +70,7 @@ public class ProductsController {
 		categories.add(category);
 		productService.update(product);
 		return "redirect:/products/"+productId;
-	}
-	
-//	DELETE
-	
+	}	
 
 //END CONTROLLER
 }
