@@ -12686,3 +12686,219 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:00:59.281
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HaNcDKsY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:00:59.285
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HaNcDKsY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:00:59.286
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:00:59.287
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HaNcDKsY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:07.538
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:07.538
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3b086139[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=626)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:07.540
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.625
+!MESSAGE Boot LS startup time from start to initialized: 5082ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.706
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JdluSDAqisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.708
+!MESSAGE subscribing to classpath changes: sts4.classpath.JdluSDAq isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.708
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.709
+!MESSAGE subsribers = {sts4.classpath.JdluSDAq=Send Classpath Notifications(5747)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.710
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.711
+!MESSAGE project Auth ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.712
+!MESSAGE project CodeCode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.713
+!MESSAGE project Products ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.713
+!MESSAGE Preparing classpath changed notification Auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.714
+!MESSAGE project Strings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.717
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.719
+!MESSAGE project displayDate ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.720
+!MESSAGE project languages ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.722
+!MESSAGE project liscensesApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.723
+!MESSAGE project mvc ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.724
+!MESSAGE project ninjaSurvey ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.725
+!MESSAGE project ninjas ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.726
+!MESSAGE project routes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.727
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.728
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JdluSDAq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.734
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.737
+!MESSAGE buffering callback sts4.classpath.JdluSDAq Auth false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.737
+!MESSAGE Preparing classpath changed notification CodeCode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.738
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.744
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.746
+!MESSAGE buffering callback sts4.classpath.JdluSDAq CodeCode false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.747
+!MESSAGE Preparing classpath changed notification Products
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.748
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.756
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.757
+!MESSAGE buffering callback sts4.classpath.JdluSDAq Products false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.758
+!MESSAGE Preparing classpath changed notification Strings
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.759
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.776
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.778
+!MESSAGE buffering callback sts4.classpath.JdluSDAq Strings false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.779
+!MESSAGE Preparing classpath changed notification displayDate
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.781
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.784
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.786
+!MESSAGE buffering callback sts4.classpath.JdluSDAq displayDate false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.786
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.788
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.791
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.793
+!MESSAGE buffering callback sts4.classpath.JdluSDAq languages false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.793
+!MESSAGE Preparing classpath changed notification liscensesApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.795
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.800
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.801
+!MESSAGE buffering callback sts4.classpath.JdluSDAq liscensesApp false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.801
+!MESSAGE Preparing classpath changed notification mvc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.802
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.805
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.807
+!MESSAGE buffering callback sts4.classpath.JdluSDAq mvc false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.807
+!MESSAGE Preparing classpath changed notification ninjaSurvey
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.808
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.811
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.812
+!MESSAGE buffering callback sts4.classpath.JdluSDAq ninjaSurvey false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.813
+!MESSAGE Preparing classpath changed notification ninjas
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.814
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.820
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.822
+!MESSAGE buffering callback sts4.classpath.JdluSDAq ninjas false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.822
+!MESSAGE Preparing classpath changed notification routes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.828
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.830
+!MESSAGE buffering callback sts4.classpath.JdluSDAq routes false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.830
+!MESSAGE executing callback sts4.classpath.JdluSDAq 11 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-17 11:01:12.982
+!MESSAGE executing callback sts4.classpath.JdluSDAq SUCCESS [done]
