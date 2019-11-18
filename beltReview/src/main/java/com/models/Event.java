@@ -33,11 +33,11 @@ public class Event {
 	
 //	EVENT NAME
 	@Size(min=0, max=60, message="Event must have a Valid name with more than 2 charictors.")
-	String eventName;
+	String name;
 	
 //	DATE
 	@DateTimeFormat(pattern= "yyyy-MM-dd")
-	private Date eventDate;
+	private Date date;
 	
 //	LOCATION
 	@NotBlank(message="You Must Enter a location")
@@ -82,13 +82,14 @@ public class Event {
 	}
 
 	public Event(
-			String eventName,
+			String name,
 			Date eventDate,
 			String location,
-			String state, User host) {
-		super();
-		this.eventName = eventName;
-		this.eventDate = eventDate;
+			String state, 
+			User host, 
+			Date date) {
+		this.name = name;
+		this.date = date;
 		this.location = location;
 		this.state = state;
 		this.host = host;
@@ -101,21 +102,21 @@ public class Event {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
-	public String getEventName() {
-		return eventName;
+	
+	public String getName() {
+		return name;
 	}
 
-	public void setEventName(String eventName) {
-		this.eventName = eventName;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public Date getEventDate() {
-		return eventDate;
+	public Date getDate() {
+		return date;
 	}
 
-	public void setEventDate(Date eventDate) {
-		this.eventDate = eventDate;
+	public void setDate(Date eventDate) {
+		this.date = eventDate;
 	}
 
 	public String getLocation() {

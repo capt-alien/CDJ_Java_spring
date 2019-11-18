@@ -56,13 +56,12 @@
 								<td class="is-one-thrid"><form:label path="location">Location:</form:label></td>
 								<td class="is-two-thrids"><form:input path="location"
 										class="input" />
-	<%-- 								<form:select path="state" class="select is-one-third">
-											<form:option value="WA">WA</form:option>
-											<form:option value="CA">CA</form:option>
-											<form:option value="NY">NY</form:option>
-											<form:option value="MA">MA</form:option>
-											<form:option value="TX">TX</form:option> --%>
-									</<%-- form:select --%>></td>
+						        	<form:select path="state">
+						        		<form:option value="CA">CA</form:option>
+						        		<form:option value="TX">TX</form:option>
+						        		<form:option value="MI">MI</form:option>
+						        		<form:option value="NY">NY</form:option>
+						        	</form:select>
 							</tr>
 							<tr>
 								<td class="is-one-thrid"><form:label path="password">password:</form:label></td>

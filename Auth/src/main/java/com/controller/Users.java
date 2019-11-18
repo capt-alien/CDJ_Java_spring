@@ -43,7 +43,7 @@ public class Users {
     	}else {
     		User u = userService.registerUser(user);
     		session.setAttribute("userId", u.getId());
-    		return "redirect:/login";
+    		return "redirect:/";
     	}
     }
     

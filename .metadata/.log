@@ -536,3 +536,67 @@ javax.net.ssl.SSLException: No PSK available. Unable to resume.
 
 !ENTRY org.eclipse.jst.jsp.core 4 4 2019-11-18 12:45:01.068
 !MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-11-18 15:01:56.095
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:18.376
+!MESSAGE Preparing classpath changed notification BoilerPlate
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:18.379
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:18.384
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:18.386
+!MESSAGE buffering callback sts4.classpath.iPgmxUAp BoilerPlate false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:18.386
+!MESSAGE executing callback sts4.classpath.iPgmxUAp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:18.403
+!MESSAGE executing callback sts4.classpath.iPgmxUAp SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-18 15:29:21.512
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:25.701
+!MESSAGE Preparing classpath changed notification BoilerPlate
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:25.701
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:25.704
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:25.709
+!MESSAGE buffering callback sts4.classpath.iPgmxUAp BoilerPlate false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:25.709
+!MESSAGE executing callback sts4.classpath.iPgmxUAp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:25.724
+!MESSAGE executing callback sts4.classpath.iPgmxUAp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:55.167
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iPgmxUAp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:55.176
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.iPgmxUAp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:55.177
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 15:29:55.184
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iPgmxUAp => OK
