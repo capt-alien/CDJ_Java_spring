@@ -52,9 +52,8 @@ public class Event {
 	private Date createdAt;
 	private Date updatedAt;
 	
-//	RELATIONNSHIPS:
+////	RELATIONNSHIPS:
 	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="host_id")
 	private User host;
 	
 	@ManyToMany(fetch=FetchType.LAZY)

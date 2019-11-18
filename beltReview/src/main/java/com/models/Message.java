@@ -35,7 +35,7 @@ public class Message {
     
 //    many to one user
 	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="event_id")
+	@JoinColumn(name="user_id")
 	private User author ;
     
     @PrePersist

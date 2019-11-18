@@ -108,7 +108,8 @@
 		</table>
 		<div id="lftpnl">
 			<h2>Create an Event:</h2>
-			<form:form method="post" action="/addevent" modelAttribute="eventObj">
+			
+<%-- 			<form:form method="post" action="/addevent" modelAttribute="event">
 				<h4 class="avoid">
 					<form:label path="name">Name:</form:label>
 					<form:input cssClass="fields" type="text" path="name"/>
@@ -128,8 +129,9 @@
 				</h4>
 				<form:hidden path="user" value="${user.id}"/>
 				<input class="btn" type="submit" value="Create"/>
-			</form:form>
-			<form:errors cssClass="red" path="eventObj.*"/>
+			</form:form> --%>
+			
+			<form:errors cssClass="red" path="event.*"/>
 		</div>
 		<div id="rghtpnl">
 		</div>

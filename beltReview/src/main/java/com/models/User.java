@@ -22,9 +22,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-import com.mysql.cj.protocol.Message;
-
-import antlr.debug.Event;
 
 @Entity
 @Table(name="users")
@@ -72,6 +69,20 @@ public class User {
 	private Date createdAt;
 	private Date updatedAt;
 	
+    //RELATIONSHIPS
+    @OneToMany(mappedBy="host", fetch = FetchType.LAZY)
+    private List<Event> hostedEvents;
+    
+    @ManyToMany(fetch=FetchType.LAZY)
+    @JoinTable(
+   		 name="events_users",
+   		 joinColumns = @JoinColumn(name="user_id"),
+   		 inverseJoinColumns = @JoinColumn(name="event_id"))
+    private List<Event> joinedEvents;
+	
+	
+	
+
 //	CONSTRUCTORS
 	public User() {
 	}
@@ -100,21 +111,6 @@ public class User {
         this.updatedAt = new Date();
     }
     
-    
-    //RELATIONSHIPS
-    @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(
-    	name = "users_events",
-    	joinColumns = @JoinColumn(name = "user_id"),
-    	inverseJoinColumns = @JoinColumn(name = "event_id")
-    )
-    private List<Event> joinedevents;
-    
-    @OneToMany(mappedBy="user", fetch = FetchType.LAZY)
-	private List<Event> events;
-    
-    @OneToMany(mappedBy="user", fetch = FetchType.LAZY)
-	private List<Message> messages;
 
 	public Long getId() {
 		return id;
@@ -196,28 +192,20 @@ public class User {
 		this.updatedAt = updatedAt;
 	}
 
-	public List<Event> getJoinedevents() {
-		return joinedevents;
+	public List<Event> getHostedEvents() {
+		return hostedEvents;
 	}
 
-	public void setJoinedevents(List<Event> joinedevents) {
-		this.joinedevents = joinedevents;
+	public void setHostedEvents(List<Event> hostedEvents) {
+		this.hostedEvents = hostedEvents;
 	}
 
-	public List<Event> getEvents() {
-		return events;
+	public List<Event> getJoinedEvents() {
+		return joinedEvents;
 	}
 
-	public void setEvents(List<Event> events) {
-		this.events = events;
-	}
-
-	public List<Message> getMessages() {
-		return messages;
-	}
-
-	public void setMessages(List<Message> messages) {
-		this.messages = messages;
+	public void setJoinedEvents(List<Event> joinedEvents) {
+		this.joinedEvents = joinedEvents;
 	}
 	
 //	END USER MODEL

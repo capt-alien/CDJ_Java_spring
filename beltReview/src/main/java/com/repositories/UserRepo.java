@@ -9,3 +9,4 @@ import com.models.User;
 public interface UserRepo extends CrudRepository<User, Long> {
 	User findByEmail(String email);
 }
+	

@@ -1,63 +1,121 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page isErrorPage="true" %>    
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/main.css">
-<title>Welcome</title>
+<title>Belt Reviewer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+<script defer
+	src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 </head>
 <body>
-	<div id="container">
-		<h1>Welcome</h1>
-		<div id="leftpanel">
-			<h1>Register</h1>
-			<form:form method="post" action="/register" modelAttribute="userObj">
-				<h4 class="avoid">
-					<form:label path="firstName">First Name:</form:label>
-					<form:input cssClass="fields" type="text" path="firstName"/>
-				</h4>
-				<h4 class="avoid">
-					<form:label path="lastName">Last Name:</form:label>
-					<form:input cssClass="fields" type="text" path="lastName"/>
-				</h4>
-				<h4 class="avoid">
-					<form:label path="email">Email:</form:label>
-					<form:input cssClass="fields" type="email" path="email"/>
-				</h4>
-				<h4 class="avoid">
-					<form:label path="location">Location:</form:label>
-					<form:select cssClass="state" path="state">
-						<c:forEach items="${states}" var="state">
-							<form:option value="${state}"><c:out value="${state}"/></form:option>
-						</c:forEach>
-					</form:select>
-					<form:input cssClass="smfields" type="text" path="location"/>
-				</h4>
-				<h4 class="avoid">
-					<form:label path="password">Password:</form:label>
-					<form:password cssClass="fields" path="password"/>
-				</h4>
-				<h4 class="avoid">
-					<form:label path="confirmPassword">Confirm Password:</form:label>
-					<form:password cssClass="fields" path="confirmPassword"/>
-				</h4>
-				<input class="btn" type="submit" value="Register"/>
-			</form:form>
-			<form:errors cssClass="red" path="userObj.*"/>
+	<div class="container">
+		<div class="notification">
+			<p class="title">Welcome</p>
 		</div>
-		<div id="rightpanel">
-			<h1>Login</h1>
-			<form action="/login" method="post">
-				<h4>Email:<input class="fields" type="email" name="email"></h4>
-				<h4>Password:<input class="fields" type="password" name="password"></h4>
-				<input class="btn" type="submit" value="Login">
-			</form>
-		</div>
+
+		<!-- left and right -->
+		<section>
+			<div class="columns">
+
+				<!-- registration -->
+				<div class="column">
+					<h1 class="subtitle">Register</h1>
+					<p>
+						<form:errors path="user.*" />
+					</p>
+
+					<!-- left column -->
+
+
+					<form:form method="POST" action="/registration"
+						modelAttribute="user">
+						<table class="mytable">
+
+							<tr>
+								<td class="is-one-thrid"><form:label path="firstName">First Name:</form:label></td>
+								<td class="is-two-thrids"><form:input path="firstName"
+										class="input" /></td>
+							</tr>
+							<tr>
+								<td class="is-one-thrid"><form:label path="lastName">Last Name:</form:label></td>
+								<td class="is-two-thrids"><form:input path="lastName"
+										class="input" /></td>
+							</tr>
+							<tr>
+								<td class="is-one-thrid"><form:label path="email">Email:</form:label></td>
+								<td class="is-two-thrids"><form:input path="email"
+										class="input" /></td>
+							</tr>
+							<tr>
+								<td class="is-one-thrid"><form:label path="location">Location:</form:label></td>
+								<td class="is-two-thrids"><form:input path="location"
+										class="input" />
+	<%-- 								<form:select path="state" class="select is-one-third">
+											<form:option value="WA">WA</form:option>
+											<form:option value="CA">CA</form:option>
+											<form:option value="NY">NY</form:option>
+											<form:option value="MA">MA</form:option>
+											<form:option value="TX">TX</form:option> --%>
+									</<%-- form:select --%>></td>
+							</tr>
+							<tr>
+								<td class="is-one-thrid"><form:label path="password">password:</form:label></td>
+								<td class="is-two-thrids"><form:input path="password"
+										type="password" class="input" /></td>
+							</tr>
+							
+							
+							<tr>
+								<td class="is-one-thrid"><form:label
+										path="confirmPassword">password Confirmation:</form:label></td>
+								<td class="is-two-thrids"><form:input
+										path="confirmPassword" type="password" class="input" /></td>
+							</tr>
+							
+							
+							<tr>
+								<td><input type="submit" value="Register!" class="button" /></td>
+							</tr>
+
+						</table>
+					</form:form>
+				</div>
+
+
+
+				<!-- login -->
+				<div class="column">
+					<h1 class="subtitle">Login</h1>
+					<p>
+						<c:out value="${error}" />
+					</p>
+
+					<form method="post" action="/login">
+						<table class="table is-fullwidth">
+							<tr>
+								<td class="is-one-thrid"><label for="email" for="email">Email</label></td>
+								<td class="is-two-thrids"><input type="text" id="email"
+									name="email" class="input" /></td>
+							</tr>
+							<tr>
+								<td class="is-one-thrid"><label for="password">Password</label></td>
+								<td class="is-two-thrids"><input type="password"
+									id="password" name="password" class="input" /></td>
+							</tr>
+							<tr>
+								<td><input type="submit" value="Login!" class="button" /></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+		</section>
 	</div>
 </body>
 </html>
