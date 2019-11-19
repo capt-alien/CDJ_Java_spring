@@ -14,6 +14,7 @@ import javax.persistence.Id;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name="shows")
@@ -23,20 +24,15 @@ public class Show {
 	 @GeneratedValue(strategy=GenerationType.IDENTITY)
 	 private Long id;
 	 
+	 @NotBlank(message="You Must Enter a Title")
 	 private String title;
+	 
+	 @NotBlank(message="You Must Enter a Network")
 	 private String network;
 	 
 	 @Column(updatable=false)
 	 private Date createdAt;
 	 private Date updatedAt;
-	 //MANY TO MANY RATINGS
-//	 @ManyToMany(fetch = FetchType.LAZY)
-//	 @JoinTable(
-//			 name="show_ratings",
-//			 joinColumns = @JoinColumn(name="show_id"),
-//			 inverseJoinColumns = @JoinColumn(name="user_id")
-//			 )
-//	 private Double ratings;
 	 
 	 public Show() {
 	 }
