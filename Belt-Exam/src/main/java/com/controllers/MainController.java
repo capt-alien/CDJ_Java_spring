@@ -131,7 +131,6 @@ public MainController(ShowRepo showRepo, UserService userService, ShowService sh
     	if(result.hasErrors()) {
     		return "edit.jsp";
     	}else {
-    		Show old = showService.findShowById(id);
     		showRepo.save(show);
     		return "redirect:/home";
     	}

@@ -22,7 +22,7 @@
             <form:input type="text" path="network"/>
         </p>
         
-        <input type="submit" value="Edit"/>
+        <input type="submit" value="Save Edit"/>
     </form:form>
     	<a href="/home">Go Back</a>
     </div>
